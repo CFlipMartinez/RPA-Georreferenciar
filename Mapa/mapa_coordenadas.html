@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4d873f5110c15c1795aa6f79078e8e43 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4d873f5110c15c1795aa6f79078e8e43" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4d873f5110c15c1795aa6f79078e8e43 = L.map(
+                "map_4d873f5110c15c1795aa6f79078e8e43",
+                {
+                    center: [4.6304519, -74.0742448],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_43fd51849660d7ee0d0ab51d51310c9b = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_43fd51849660d7ee0d0ab51d51310c9b.addTo(map_4d873f5110c15c1795aa6f79078e8e43);
+        
+    
+            var marker_16d2b98b4a442481d324ba7d4e2f00fb = L.marker(
+                [4.6304519, -74.0742448],
+                {}
+            ).addTo(map_4d873f5110c15c1795aa6f79078e8e43);
+        
+    
+        var popup_f45aaffc91ec41cfeb0822e758039702 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0927cebb2dc1a51086cb01aca6e42430 = $(`<div id="html_0927cebb2dc1a51086cb01aca6e42430" style="width: 100.0%; height: 100.0%;">Dirección: Dg. 40a #18-29, Biblioteca UNINPAHU, Bogota</div>`)[0];
+                popup_f45aaffc91ec41cfeb0822e758039702.setContent(html_0927cebb2dc1a51086cb01aca6e42430);
+            
+        
+
+        marker_16d2b98b4a442481d324ba7d4e2f00fb.bindPopup(popup_f45aaffc91ec41cfeb0822e758039702)
+        ;
+
+        
+    
+    
+            var marker_d18093631713f5f82836eabb455b564b = L.marker(
+                [4.6341267, -74.0651196],
+                {}
+            ).addTo(map_4d873f5110c15c1795aa6f79078e8e43);
+        
+    
+        var popup_2b089a3b4e0a21d891ef309e2e5e8e1b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7db0bb4efea010fe74ed8b3ea30951f6 = $(`<div id="html_7db0bb4efea010fe74ed8b3ea30951f6" style="width: 100.0%; height: 100.0%;">Dirección: Tv. 3C #49-02, Hospital Militar, Bogota</div>`)[0];
+                popup_2b089a3b4e0a21d891ef309e2e5e8e1b.setContent(html_7db0bb4efea010fe74ed8b3ea30951f6);
+            
+        
+
+        marker_d18093631713f5f82836eabb455b564b.bindPopup(popup_2b089a3b4e0a21d891ef309e2e5e8e1b)
+        ;
+
+        
+    
+    
+            var marker_187c6e0ca3c6c0c845e32a0114ae661b = L.marker(
+                [4.6284928, -74.0672394],
+                {}
+            ).addTo(map_4d873f5110c15c1795aa6f79078e8e43);
+        
+    
+        var popup_f22152a3d295902b5eae8b5cec0325a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d995d569ded51cfd6cdedfebdd7d280c = $(`<div id="html_d995d569ded51cfd6cdedfebdd7d280c" style="width: 100.0%; height: 100.0%;">Dirección: Cra. 7 #40 - 62, Javeriana, Bogota</div>`)[0];
+                popup_f22152a3d295902b5eae8b5cec0325a9.setContent(html_d995d569ded51cfd6cdedfebdd7d280c);
+            
+        
+
+        marker_187c6e0ca3c6c0c845e32a0114ae661b.bindPopup(popup_f22152a3d295902b5eae8b5cec0325a9)
+        ;
+
+        
+    
+    
+            var marker_8a2afa407627b7331f196f6da8f6fcb0 = L.marker(
+                [4.5927377, -74.1610974],
+                {}
+            ).addTo(map_4d873f5110c15c1795aa6f79078e8e43);
+        
+    
+        var popup_ea1a2c602d6a302d6cc7ebc71b80dfe1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd4c1a62a851ac4e5a18384f84f95e7a = $(`<div id="html_cd4c1a62a851ac4e5a18384f84f95e7a" style="width: 100.0%; height: 100.0%;">Dirección: Cl. 60a Sur #68-08, Madelena urbano 2, Bogota</div>`)[0];
+                popup_ea1a2c602d6a302d6cc7ebc71b80dfe1.setContent(html_cd4c1a62a851ac4e5a18384f84f95e7a);
+            
+        
+
+        marker_8a2afa407627b7331f196f6da8f6fcb0.bindPopup(popup_ea1a2c602d6a302d6cc7ebc71b80dfe1)
+        ;
+
+        
+    
+    
+            var marker_eaad7114010e1a500498727022e77321 = L.marker(
+                [4.5886655, -74.2070772],
+                {}
+            ).addTo(map_4d873f5110c15c1795aa6f79078e8e43);
+        
+    
+        var popup_65dcee0438911561ebcee2e3032f6485 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f2963914a6227aabc60040c47ccfd631 = $(`<div id="html_f2963914a6227aabc60040c47ccfd631" style="width: 100.0%; height: 100.0%;">Dirección: Cl. 31, cc Mercurio, Soacha</div>`)[0];
+                popup_65dcee0438911561ebcee2e3032f6485.setContent(html_f2963914a6227aabc60040c47ccfd631);
+            
+        
+
+        marker_eaad7114010e1a500498727022e77321.bindPopup(popup_65dcee0438911561ebcee2e3032f6485)
+        ;
+
+        
+    
+    
+            var marker_92202360f9cd69b035d5238c32471de4 = L.marker(
+                [4.6193045, -74.1396339],
+                {}
+            ).addTo(map_4d873f5110c15c1795aa6f79078e8e43);
+        
+    
+        var popup_28ffbe41067562d94eb533262cfde5a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a860eaf2938825227d570a397c2db32 = $(`<div id="html_3a860eaf2938825227d570a397c2db32" style="width: 100.0%; height: 100.0%;">Dirección: Transversal 71D # 4-40 Sur, CC Americas, Bogota</div>`)[0];
+                popup_28ffbe41067562d94eb533262cfde5a6.setContent(html_3a860eaf2938825227d570a397c2db32);
+            
+        
+
+        marker_92202360f9cd69b035d5238c32471de4.bindPopup(popup_28ffbe41067562d94eb533262cfde5a6)
+        ;
+
+        
+    
+    
+            var marker_54cee84e2a66328bc0f5ff0c27ef4236 = L.marker(
+                [4.6321621, -74.1181987],
+                {}
+            ).addTo(map_4d873f5110c15c1795aa6f79078e8e43);
+        
+    
+        var popup_78efe09be4a6c4e910ebd70922d0de8e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fbc90dae92915747af34a54f455fbd74 = $(`<div id="html_fbc90dae92915747af34a54f455fbd74" style="width: 100.0%; height: 100.0%;">Dirección: Cra. 65 #11-50, CC plaza central, Bogota</div>`)[0];
+                popup_78efe09be4a6c4e910ebd70922d0de8e.setContent(html_fbc90dae92915747af34a54f455fbd74);
+            
+        
+
+        marker_54cee84e2a66328bc0f5ff0c27ef4236.bindPopup(popup_78efe09be4a6c4e910ebd70922d0de8e)
+        ;
+
+        
+    
+    
+            var marker_1f06f3971f8ba881363eb0e10df6dacf = L.marker(
+                [4.3281512, -74.3874448],
+                {}
+            ).addTo(map_4d873f5110c15c1795aa6f79078e8e43);
+        
+    
+        var popup_cd1ac6829a79e9ec441931758959db84 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a9f61fe95e645cbdef9b193e6789a29 = $(`<div id="html_2a9f61fe95e645cbdef9b193e6789a29" style="width: 100.0%; height: 100.0%;">Dirección: Cl. 23a #5-82, Cundinamarca, Fusagasugá</div>`)[0];
+                popup_cd1ac6829a79e9ec441931758959db84.setContent(html_2a9f61fe95e645cbdef9b193e6789a29);
+            
+        
+
+        marker_1f06f3971f8ba881363eb0e10df6dacf.bindPopup(popup_cd1ac6829a79e9ec441931758959db84)
+        ;
+
+        
+    
+</script>
+</html>
