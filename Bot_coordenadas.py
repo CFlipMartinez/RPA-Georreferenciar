@@ -135,7 +135,7 @@ def georeferenciar():
 
     # Guardar el mapa en un archivo HTML
     if mapa is not None:
-        mapa.save(os.path.expanduser('~').replace('\\', '/') + '/Documents/Universidad/PIA/GeoLocate/Bot_Coordenadas/Mapa/mapa_coordenadas.html')
+        mapa.save(os.path.expanduser('~').replace('\\', '/') + '/Documents/Universidad/PIA/Bot_Coordenadas/Mapa/mapa_coordenadas.html')
 
 
     driver.quit() #cierra el navegador una vez termina el ciclo
